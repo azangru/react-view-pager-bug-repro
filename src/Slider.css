@@ -1,0 +1,21 @@
+.slider__frame {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider__controls {
+  margin-top: 1em;
+}
+
+.slider__controls span {
+  display: inline-block;
+  color: blue;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider__controls span:first-child {
+  margin-right: 2em;
+}
